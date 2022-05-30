@@ -1,0 +1,209 @@
+*{
+    padding : 0px;
+    margin : 0px;
+    box-sizing: border-box;
+}
+body{
+    margin: 0px;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-weight: 200;
+    text-align: center;
+}
+hr{
+    height : 3px;
+    background-color: black;
+}
+#title{
+    color:#075E54;
+    margin: 0px;
+    font-size: 60px;
+    font-weight: 700;
+    text-align: center;
+    background-color: #ECE5DD;
+}
+
+#nav{
+    display: flex;
+    background-color: #ECE5DD;
+    padding-bottom: 0px;
+    margin-top: 0px;
+    height: 60px;
+    text-align: center;
+    justify-content: space-between;
+}
+
+.move{
+    padding-right: 50px;
+    padding-left: 30px;
+    text-align: center;
+    color: #075E54;
+    text-decoration: none;
+    display: inline;
+    padding-top: 10px;
+    font-size: 25px;
+    font-weight: 800;
+}
+
+#footer{
+    text-align: center;
+    background-color: #ECE5DD ;
+    height: 50px;
+}
+
+#footer-text{
+    margin: 0px; 
+    padding-top: 15px; 
+    font-size: 20px; 
+    color: #075E54;
+    font-weight: 600;
+}
+
+.input{
+    font-size: 15px;
+    font-weight: 600;
+}
+
+.register{
+    color: #075E54;
+    font-size: 20px;
+    font-weight: 600;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    margin-left: 10px;
+}
+
+.btn{
+    color: white;
+    background: black;
+    padding: 4px 8px;
+    font-size: 18px;
+    border: 2px solid white;
+    border-radius: 14px;
+    cursor: pointer;
+}
+
+#welcome{
+
+    font-size: 20px;
+    color: #075E54;
+    font-weight: 600;
+    margin-top: 30px;
+}
+#msg{
+    width : 300px;
+    padding : 5px 10px;
+    background-color: rgb(245, 245, 245);
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+#msg:focus{
+    outline: none;
+}
+
+
+.chats{
+    width : 600px;
+    margin : 50px auto;
+    background-color :#ECE5DD;
+    color: rgb(7, 7, 7);
+    border : 2px solid black;
+    border-radius: 5px;
+}
+
+.left{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+.right{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+.leftcont{
+    background-color: rgb(208, 224, 255);
+    color: black;
+    padding : 5px 15px;
+    margin : 10px ;
+    border-radius: 0px 10px 10px 10px;
+    width :fit-content;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+.rightcont{
+    width :fit-content;
+    padding : 5px 15px;
+    margin : 10px ;
+    border-radius: 10px 0px 10px 10px;
+    background-color:white;
+    color: black;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+.name{
+    font-weight: 800;
+    font-size : 14px;
+    color: rgb(51, 51, 255);
+}
+.msg{
+    font-size: 20px;
+}
+.time{
+  color:black ;
+  font-size: 14px;
+}
+
+body {
+    font-family: "Montserrat";
+    background-color: #54d454;
+  }
+  #title {
+    color: #075E54;
+  }
+  
+  .container-fluid {
+    padding: 3% 15%;
+  }
+  
+  h1 {
+    font-family: "Montserrat-Black";
+    font-size: 3rem;
+    line-height: 1.5;
+  }
+  h2 {
+    font-family: "Montserrat-Black";
+    font-size: 3rem;
+    line-height: 1.5;
+  }
+  h3 {
+    font-family: "Montserrat-Black";
+    font-size: 1.5rem;
+  }
+  p {
+    color: #8f8f8f;
+    font-family: "Montserrat";
+  }
+  
+  .navbar {
+    padding: 0 0 4.5rem;
+  }
+  
+  .navbar-brand {
+    font-family: "Ubuntu";
+    font-size: 3rem;
+    font-weight: bold;
+  }
+  
+  .nav-item {
+    padding: 0 18px;
+  }
+  .nav-link {
+    font-size: 1.2rem;
+    font-family: "Montserrat-light";
+  }
+  
+  .download-button {
+    margin: 5% 3% 5% 0;
+  }
+  .title-image {
+    width: 60%;
+    transform: rotate(25deg);
+  }
+  
